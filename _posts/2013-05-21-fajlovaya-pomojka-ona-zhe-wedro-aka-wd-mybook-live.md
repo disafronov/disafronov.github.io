@@ -1,5 +1,5 @@
 ---
-title: "Файловая помойка &#8212; она же WeDro, aka WD MyBook Live"
+title: "Файловая помойка - она же WeDro, aka WD MyBook Live"
 date: "2013-05-21 05:23:22 +0300"
 categories:
     - Администрирование
