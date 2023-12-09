@@ -11,17 +11,17 @@ If your system uses `AccountsService`, you **can not** hide a user from the gree
 
 To hide a user named `XXX`, create a file named
 
-```
+```shell
 /var/lib/AccountsService/users/XXX
 ```
 
 containing two lines:
 
-```
+```ini
 [User]
 SystemAccount=true
 ```
 
 If the file already exists, make sure you append the `SystemAccount=true` line to the `[User]` section.
 
-Via https://askubuntu.com/a/575390
+Via <https://askubuntu.com/a/575390>
