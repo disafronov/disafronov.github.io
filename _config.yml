@@ -16,5 +16,5 @@ minima:
   date_format: "%Y %b %-d"
 
 sass:
-  sass_dir: _scss
+  sass_dir: _sass
   style: compressed
