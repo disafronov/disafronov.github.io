@@ -14,3 +14,6 @@ show_excerpts: true
 
 minima:
   date_format: "%Y %b %-d"
+
+sass:
+  sass_dir: _scss
