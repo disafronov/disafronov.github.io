@@ -1,0 +1,16 @@
+title: Dreaming in digital…
+author: "Dmitriy Safronov"
+email: "zimniy[at]cyberbrain[dot]pw"
+description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
+
+theme: minima
+
+header_pages:
+  - about.md
+
+github_username: DmitriySafronov
+rss: rss
+show_excerpts: true
+
+minima:
+  date_format: "%Y %b %-d"
