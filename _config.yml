@@ -9,15 +9,14 @@ header_pages:
   - about.md
 
 github_username: DmitriySafronov
-# rss: rss
 show_excerpts: true
 
 minima:
   skin: auto
   date_format: "%Y %b %-d"
 
-sass:
-  style: compressed
+# sass:
+#   style: compressed
 
 disqus:
   shortname: cyberbrain-pw
