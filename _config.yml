@@ -1,25 +1,38 @@
 title: Dreaming in digital…
-author: "Dmitriy Safronov"
-email: "zimniy[at]cyberbrain[dot]pw"
+author:
+  name: "Dmitriy Safronov"
+  email: "zimniy[at]cyberbrain[dot]pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
+# theme: minima
 remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
 header_pages:
   - about.md
 
-github_username: DmitriySafronov
 show_excerpts: true
 
 minima:
   skin: auto
   date_format: "%Y %b %-d"
+  social_links:
+    - platform: github
+      user_url: "https://github.com/DmitriySafronov"
 
-sass:
-  style: expanded
+#
+
+google_analytics: G-VWE7QJCSVH
+
+#
 
 disqus:
   shortname: cyberbrain-pw
+
+#
 
 defaults:
   -
@@ -29,4 +42,7 @@ defaults:
     values:
       comments: true
 
-google_analytics: G-VWE7QJCSVH
+# 
+
+# sass:
+#   style: expanded
