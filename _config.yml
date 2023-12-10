@@ -23,7 +23,7 @@ minima:
     - platform: github
       user_url: "https://github.com/DmitriySafronov"
     - platform: gitlab
-      user_url: "https://gitlab.cyberbrain.pw/zimniy"
+      user_url: "https://gitlab.cyberbrain.pw"
       
 #
 
