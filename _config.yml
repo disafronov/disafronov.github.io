@@ -3,7 +3,7 @@ author: "Dmitriy Safronov"
 email: "zimniy[at]cyberbrain[dot]pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
-theme: minima
+remote_theme: jekyll/minima
 
 header_pages:
   - about.md
