@@ -6,7 +6,7 @@ $base-font-size: 20px !default;
 $content-width:  1000px !default;
 
 /* load theme */
-@import "{{ site.theme }}";
+@import "{{ site.remote_theme }}";
 
 /* Put any custom CSS here */
 @import "video-embed.scss";
