@@ -10,6 +10,7 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 header_pages:
   - about.md
@@ -43,6 +44,11 @@ defaults:
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       comments: true
+  -
+    scope:
+      path:            "assets/**/*"
+    values:
+      sitemap:         false
 
 # 
 
