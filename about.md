@@ -77,7 +77,7 @@ permalink: /about
 
 - Профиль [Github](https://github.com/DmitriySafronov)
 - Профиль [Gitlab](https://gitlab.com/zimniy)
-- [Свой Gitlab](https://gitlab.cyberbrain.pw), запущенный в виртуальной машине на NAS'е Synology живущем на шкафу в прихожей. Ну надо же ему где-то жить :-)
+- [Свой Gitlab](https://gitlab.cyberbrain.pw), пытается работать в виртуальной машине, запущенной на NAS'е Synology, живущем на шкафу в прихожей. Обычно лениво лежит, но иногда изволит работать.
 
 #### Из "догитхабовских" времён
 
