@@ -9,7 +9,7 @@ header_pages:
   - about.md
 
 github_username: DmitriySafronov
-rss: rss
+# rss: rss
 show_excerpts: true
 
 minima:
