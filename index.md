@@ -1,5 +1,8 @@
 ---
+title: Home
 ---
+
+## Disclaimer
 
 Что это такое и зачем оно не нужно © Linux.Org.Ru
 
