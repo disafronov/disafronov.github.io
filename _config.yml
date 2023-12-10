@@ -15,8 +15,8 @@ minima:
   skin: auto
   date_format: "%Y %b %-d"
 
-# sass:
-#   style: compressed
+sass:
+  style: expanded
 
 disqus:
   shortname: cyberbrain-pw
