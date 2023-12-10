@@ -1,7 +1,12 @@
 ---
 ---
 
+/* Override theme defaults */
+$base-font-size: 20px !default;
+
+/* load theme */
 @import "{{ site.theme }}";
 
+/* Put any custom CSS here */
 @import "video-embed.scss";
 @import "previous-next-post.scss";
