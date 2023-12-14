@@ -54,11 +54,11 @@ stream {
     }
 
     server {
-        listen 0.0.0.0:443;
+        listen      0.0.0.0:443;
 
         ssl_preread on;
 
-        proxy_pass $targetBackend;
+        proxy_pass  $targetBackend;
     }
 }
 ```
@@ -89,15 +89,15 @@ server {
     server_name *.domain1.tld domain1.tld;
 
     location    / {
-        allow all;
+        allow               all;
 
-        proxy_pass http://10.0.0.2:80;
-        proxy_pass_header Set-Cookie;
+        proxy_pass          http://10.0.0.2:80;
+        proxy_pass_header   Set-Cookie;
 
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header Host $host;
-        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header    X-Real-IP           $remote_addr;
+        proxy_set_header    X-Forwarded-Proto   $scheme;
+        proxy_set_header    X-Forwarded-For     $remote_addr;
+        proxy_set_header    Host                $host;
     }
 }
 ```
@@ -112,15 +112,15 @@ server {
     server_name *.domain2.tld domain2.tld;
 
     location    / {
-        allow all;
+        allow               all;
 
-        proxy_pass http://10.0.0.3:80;
-        proxy_pass_header Set-Cookie;
+        proxy_pass          http://10.0.0.3:80;
+        proxy_pass_header   Set-Cookie;
 
-        proxy_set_header X-Real-IP $remote_addr;
-        proxy_set_header X-Forwarded-Proto $scheme;
-        proxy_set_header Host $host;
-        proxy_set_header X-Forwarded-For $remote_addr;
+        proxy_set_header    X-Real-IP           $remote_addr;
+        proxy_set_header    X-Forwarded-Proto   $scheme;
+        proxy_set_header    X-Forwarded-For     $remote_addr;
+        proxy_set_header    Host                $host;
     }
 }
 ```
@@ -133,9 +133,9 @@ server {
 
 ```bash
 server {
-    listen      80 default_server;
+    listen  80  default_server;
 
-    return      301 https://$host$request_uri;
+    return  301 https://$host$request_uri;
 }
 ```
 
@@ -149,9 +149,9 @@ server {
 
     root        /srv/landing;
 
-    index index.html;
+    index       index.html;
 
-    location / {
+    location    / {
         try_files $uri $uri/ /index.html;
     }
 }
