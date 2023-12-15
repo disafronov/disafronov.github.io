@@ -127,7 +127,7 @@ server {
 
 ## Бонусы
 
-### Перенаправление https на https
+### Перенаправление http на https
 
 `/etc/nginx/sites-enabled/http2https`:
 
