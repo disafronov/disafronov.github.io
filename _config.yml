@@ -1,7 +1,7 @@
 title: Dreaming in digital…
 author:
   name: "Dmitriy Safronov"
-  email: "zimniy[at]cyberbrain[dot]pw"
+  email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
 # theme: minima
@@ -24,7 +24,7 @@ minima:
     - platform: github
       user_url: "https://github.com/DmitriySafronov"
     - platform: gitlab
-      user_url: "https://gitlab.cyberbrain.pw"
+      user_url: "https://gitlab.com/zimniy"
       
 #
 
