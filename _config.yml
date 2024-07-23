@@ -22,7 +22,7 @@ minima:
   date_format: "%Y %b %-d"
   social_links:
     - platform: github
-      user_url: "https://github.com/DmitriySafronov"
+      user_url: "https://github.com/dmitriysafronov"
     - platform: gitlab
       user_url: "https://gitlab.com/zimniy"
       
