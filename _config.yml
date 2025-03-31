@@ -11,8 +11,8 @@ show_excerpts: true
 
 google_analytics: G-VWE7QJCSVH
 
-disqus:
-  shortname: cyberbrain-pw
+# disqus:
+#   shortname: cyberbrain-pw
 
 defaults:
   - scope:
