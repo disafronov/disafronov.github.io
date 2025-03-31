@@ -1,6 +1,7 @@
 ---
 title: "About"
 permalink: /about
+layout: default
 ---
 
 Резюме в вольном стиле…
