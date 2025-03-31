@@ -4,28 +4,10 @@ author:
   email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
-remote_theme: "jekyll/minima@v2.5.2"
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
 header_pages:
   - about.md
 
 show_excerpts: true
-
-minima:
-  skin: auto
-  date_format: "%Y %b %-d"
-  social_links:
-    - platform: github
-      user_url: "https://github.com/dmitriysafronov"
-      icon: "fab fa-github"
-    - platform: gitlab
-      user_url: "https://gitlab.cyberbrain.pw/zimniy"
-      icon:  "fab fa-gitlab"
 
 google_analytics: G-VWE7QJCSVH
 
@@ -42,3 +24,25 @@ defaults:
       path:            "assets/**/*"
     values:
       sitemap:         false
+
+##########################################################################
+
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
+
+##########################################################################
+
+# remote_theme: "jekyll/minima@v2.5.2"
+
+# minima:
+#   skin: auto
+#   date_format: "%Y %b %-d"
+#   social_links:
+#     - platform: github
+#       user_url: "https://github.com/dmitriysafronov"
+#       icon: "fab fa-github"
+#     - platform: gitlab
+#       user_url: "https://gitlab.cyberbrain.pw/zimniy"
+#       icon:  "fab fa-gitlab"
