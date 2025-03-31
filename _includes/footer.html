@@ -5,7 +5,7 @@
 
     <div class="footer-col-wrapper">
       {%- if site.author %}
-      <div class="footer-col">
+      <div class="footer-col footer-col-1">
         <ul class="contact-list">
           {% if site.author.name -%}
             <li class="p-name">{{ site.author.name | escape }}</li>
@@ -17,12 +17,12 @@
       </div>
       {%- endif %}
 
-      <div class="footer-col">
+      <div class="footer-col footer-col-2">
         {%- include social.html -%}
       </div>
 
       {%- if site.description %}
-      <div class="footer-col">
+      <div class="footer-col footer-col-3">
         {{ site.description | escape }}
       </div>
       {%- endif %}
