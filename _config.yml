@@ -39,9 +39,9 @@ remote_theme: "jekyll/minima@v2.5.2"
 minima:
   skin: auto
   date_format: "%Y %b %-d"
-#   social_links:
-#     - platform: github
-#       user_url: "https://github.com/dmitriysafronov"
+  social_links:
+    - platform: github
+      user_url: "https://github.com/dmitriysafronov"
 #       icon: "fab fa-github"
 #     - platform: gitlab
 #       user_url: "https://gitlab.cyberbrain.pw/zimniy"
