@@ -4,7 +4,7 @@ author:
   email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
-remote_theme: "jekyll/minima@v2.5.1"
+remote_theme: "jekyll/minima@v2.5.2"
 
 plugins:
   - jekyll-feed
