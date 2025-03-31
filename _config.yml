@@ -21,24 +21,25 @@ defaults:
     values:
       comments: true
   - scope:
-      path:            "assets/**/*"
+      path: "assets/**/*"
     values:
-      sitemap:         false
+      sitemap: false
 
 ##########################################################################
 
-# plugins:
+plugins:
+  - jekyll-remote-theme
 #   - jekyll-feed
 #   - jekyll-seo-tag
 #   - jekyll-sitemap
 
 ##########################################################################
 
-# remote_theme: "jekyll/minima@v2.5.2"
+remote_theme: "jekyll/minima@v2.5.2"
 
-# minima:
-#   skin: auto
-#   date_format: "%Y %b %-d"
+minima:
+  skin: auto
+  date_format: "%Y %b %-d"
 #   social_links:
 #     - platform: github
 #       user_url: "https://github.com/dmitriysafronov"
