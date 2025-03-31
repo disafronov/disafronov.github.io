@@ -30,8 +30,8 @@ defaults:
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
 #   - jekyll-seo-tag
-#   - jekyll-sitemap
 
 ##########################################################################
 
