@@ -4,15 +4,37 @@ author:
   email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
+##########################################################################
+
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+##########################################################################
+
+remote_theme: "jekyll/minima@v2.5.2"
+
+##########################################################################
+
 header_pages:
   - about.md
 
-show_excerpts: true
-
-google_analytics: G-VWE7QJCSVH
+minima:
+  skin: auto
+  date_format: "%Y %b %-d"
 
 disqus:
   shortname: cyberbrain-pw
+
+github_username: dmitriysafronov
+linkedin_username: zimniy
+
+google_analytics: G-VWE7QJCSVH
+
+show_excerpts: true
+
+##########################################################################
 
 defaults:
   - scope:
@@ -24,25 +46,3 @@ defaults:
       path: "assets/**/*"
     values:
       sitemap: false
-
-##########################################################################
-
-plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
-  - jekyll-sitemap
-
-##########################################################################
-
-remote_theme: "jekyll/minima@v2.5.2"
-
-minima:
-  skin: auto
-  date_format: "%Y %b %-d"
-  social_links:
-    - platform: github
-      user_url: "https://github.com/dmitriysafronov"
-#       icon: "fab fa-github"
-#     - platform: gitlab
-#       user_url: "https://gitlab.cyberbrain.pw/zimniy"
-#       icon:  "fab fa-gitlab"
