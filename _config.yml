@@ -4,7 +4,6 @@ author:
   email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
-# theme: minima
 remote_theme: "jekyll/minima@v2.5.1"
 
 plugins:
@@ -23,34 +22,23 @@ minima:
   social_links:
     - platform: github
       user_url: "https://github.com/dmitriysafronov"
+      icon: "fab fa-github"
     - platform: gitlab
-      user_url: "https://gitlab.cyberbrain.pw"
-      
-#
+      user_url: "https://gitlab.cyberbrain.pw/zimniy"
+      icon:  "fab fa-gitlab"
 
 google_analytics: G-VWE7QJCSVH
-
-#
 
 disqus:
   shortname: cyberbrain-pw
 
-#
-
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
       type: "posts" # previously `post` in Jekyll 2.2.
     values:
       comments: true
-  -
-    scope:
+  - scope:
       path:            "assets/**/*"
     values:
       sitemap:         false
-
-# 
-
-# sass:
-#   style: expanded
