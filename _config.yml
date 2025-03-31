@@ -5,7 +5,7 @@ author:
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
 # theme: minima
-remote_theme: "jekyll/minima@1e8a445"
+remote_theme: "jekyll/minima@v2.5.2"
 
 plugins:
   - jekyll-feed
