@@ -9,6 +9,7 @@ description: Здесь, наверное, нужно написать что-н
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jemoji
 
