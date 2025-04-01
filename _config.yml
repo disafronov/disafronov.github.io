@@ -18,9 +18,6 @@ remote_theme: "jekyll/minima@f1a2af4"
 
 ##########################################################################
 
-header_pages:
-  - about.md
-
 minima:
   skin: auto
   date_format: "%Y %b %-d"
@@ -32,12 +29,11 @@ minima:
     - title: zimniy
       icon: linkedin
       url: "https://www.linkedin.com/in/zimniy/"
+  nav_pages:
+    - about.md
 
 disqus:
   shortname: cyberbrain-pw
-
-github_username: dmitriysafronov
-linkedin_username: zimniy
 
 google_analytics: G-VWE7QJCSVH
 
