@@ -24,6 +24,7 @@ header_pages:
 minima:
   skin: auto
   date_format: "%Y %b %-d"
+  show_excerpts: true
 
 disqus:
   shortname: cyberbrain-pw
@@ -32,8 +33,6 @@ github_username: dmitriysafronov
 linkedin_username: zimniy
 
 google_analytics: G-VWE7QJCSVH
-
-show_excerpts: true
 
 ##########################################################################
 
