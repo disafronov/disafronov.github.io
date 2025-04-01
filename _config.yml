@@ -29,8 +29,8 @@ minima:
     - title: zimniy
       icon: linkedin
       url: "https://www.linkedin.com/in/zimniy/"
-    - title: rss
-      icon: square-rss
+    - title: feed
+      icon: scroll
       url: "/feed.xml"
   nav_pages:
     - about.md
