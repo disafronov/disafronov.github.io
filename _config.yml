@@ -25,6 +25,13 @@ minima:
   skin: auto
   date_format: "%Y %b %-d"
   show_excerpts: true
+  social_links:
+    - title: dmitriysafronov
+      icon: github
+      url: "https://github.com/dmitriysafronov"
+    - title: zimniy
+      icon: linkedin
+      url: "https://www.linkedin.com/in/zimniy/"
 
 disqus:
   shortname: cyberbrain-pw
