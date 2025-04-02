@@ -7,7 +7,7 @@ html {
 body {
 	margin: 0; /* Убираем отступы */
 	height: 100%; /* Высота страницы */
-	background: url(/assets/404.svg) no-repeat center center fixed; /* Параметры фона */
+	background: url(/assets/404/404.svg) no-repeat center center fixed; /* Параметры фона */
 	background-size: contain; /* Фон занимает всю доступную площадь */
 }
 
