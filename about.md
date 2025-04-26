@@ -76,7 +76,7 @@ layout: page
 
 #### Github, etc
 
-- Профиль [Github](https://github.com/dmitriysafronov)
+- Профиль [Github](https://github.com/disafronov)
 - Профиль [Gitlab](https://gitlab.com/zimniy)
 - [Свой Gitlab](https://gitlab.cyberbrain.pw), пытается работать в виртуальной машине, запущенной на NAS'е Synology, живущем на шкафу в прихожей. Обычно лениво лежит, но иногда изволит работать.
 
