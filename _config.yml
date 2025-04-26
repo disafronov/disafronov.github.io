@@ -1,6 +1,6 @@
 title: Dreaming in digital…
 author:
-  name: "Dmitriy Safronov"
+  name: "Dmitrii Safronov"
   email: "zimniy@cyberbrain.pw"
 description: Здесь, наверное, нужно написать что-нибудь мотивирующее и и глубокомысленное, но мне лень.
 
@@ -24,9 +24,9 @@ minima:
   date_format: "%Y %b %-d"
   show_excerpts: true
   social_links:
-    - title: dmitriysafronov
+    - title: disafronov
       icon: github
-      url: "https://github.com/dmitriysafronov"
+      url: "https://github.com/disafronov"
     - title: zimniy
       icon: linkedin
       url: "https://www.linkedin.com/in/zimniy/"
