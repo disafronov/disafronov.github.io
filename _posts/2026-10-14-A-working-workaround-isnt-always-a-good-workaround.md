@@ -8,8 +8,6 @@ Another Linux kernel update broke the internal speakers on my Lenovo Legion 7.
 
 Again.
 
-This wasn't the first time a kernel update had left me without working speakers.
-
 Headphones worked. The audio devices were detected. PipeWire was routing audio correctly. But the internal speakers remained completely silent.
 
 This time, the regression appeared when moving from kernel `7.0.0-34-generic` to `7.0.0-38-generic`.
@@ -30,10 +28,6 @@ Other contributors identified the corresponding upstream Linux fix, and the Laun
 
 I applied the published workaround, tested it on my laptop, and confirmed that the speakers worked again.
 
-Problem solved?
-
-Functionally, yes.
-
 But there was one aspect of the workaround I wanted to improve.
 
 The `model` parameter of `snd-hda-intel` is an array, with entries corresponding to HDA controller instances.
@@ -43,10 +37,6 @@ My laptop has two HDA controllers: Intel and NVIDIA. Their registration order ca
 That works for my configuration, but it applies the override more broadly than necessary.
 
 I wanted to preserve the workaround's behavior across changes in the registration order of these two controllers, while limiting the actual override to the affected codec.
-
-And this is where the work already done by other engineers really paid off.
-
-Instead of spending time rediscovering the root cause, I could focus on making the existing solution more targeted.
 
 Linux already provides a mechanism for this: HDA early patching.
 
@@ -86,20 +76,10 @@ The upstream fix already exists, and getting it into Ubuntu remains the proper l
 
 But for my current hardware configuration, the workaround now handles either registration order of the two HDA controllers while applying the model override only to the affected codec.
 
-And the best part of this story isn't that my speakers work again.
-
-It's that other engineers had already invested their time in investigating the issue, identifying the root cause, and sharing their findings publicly.
-
-Their work saved me from repeating the same investigation.
-
-Instead, I could spend that time improving a practical solution and verifying its behavior on my own hardware.
-
-In the end, I got working speakers, a more targeted workaround, and another reminder of just how valuable well-researched public bug reports can be.
-
 Many thanks to everyone involved in the Launchpad discussion for the investigation, the workaround, and the hours of debugging they saved me.
 
 Bug report: [2163143](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2163143)
 
 Upstream fix: [dd074f0](https://github.com/torvalds/linux/commit/dd074f04e04648d89d9d10ae9846cd057c97b385)
 
-My workaround^2: [2163143/comments/9](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2163143/comments/9)
+My refined workaround: [2163143/comments/9](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2163143/comments/9)
