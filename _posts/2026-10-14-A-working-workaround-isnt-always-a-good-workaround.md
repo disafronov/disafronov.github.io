@@ -76,7 +76,7 @@ The upstream fix already exists, and getting it into Ubuntu remains the proper l
 
 But for my current hardware configuration, the workaround now handles either registration order of the two HDA controllers while applying the model override only to the affected codec.
 
-Many thanks to everyone involved in the Launchpad discussion for the investigation, the workaround, and the hours of debugging they saved me.
+Many thanks to everyone involved in the Launchpad investigation. Without their findings and the workaround they shared, I wouldn't have had a solution to refine.
 
 Bug report: [2163143](https://bugs.launchpad.net/ubuntu/+source/linux/+bug/2163143)
 
