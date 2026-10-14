@@ -1,6 +1,7 @@
 ---
 title: "A working workaround isn't always a good workaround"
 date: "2026-10-14 13:56:00 +0400"
+tags: [linux, kernel, alsa, debugging]
 ---
 
 Another Linux kernel update broke the internal speakers on my Lenovo Legion 7.
